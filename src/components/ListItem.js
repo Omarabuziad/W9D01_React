@@ -2,8 +2,8 @@ import React from 'react';
 
 
 // jsx
-const ListItem = () => {
-  return <l></l>
+const ListItem = (todo , id ) => {
+  return <li>{todo}</li>
 };
 
 export default ListItem
